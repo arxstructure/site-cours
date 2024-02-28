@@ -1,0 +1,38 @@
+/***** CSS *******/
+
+body{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 13px;
+	text-align: center;
+	background-color: Aqua;
+}
+
+h1,h2{
+	font-weight: normal;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: rgb(0,90,255);
+}
+
+p {
+    text-indent: 50px;
+    letter-spacing: 1px;
+}
+img{
+	width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+a {
+    text-decoration: none;
+    color: #008CBA;
+}
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+}

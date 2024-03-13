@@ -63,4 +63,10 @@ div {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
+  
+}
+3d_model {
+  width: 2000px;
+  height: 2000px;
+
 }

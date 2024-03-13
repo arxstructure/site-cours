@@ -20,7 +20,7 @@ min-inline-size: 100%;
 padding: 5vmin;
 box-sizing: border-box;
 display: grid;
-place-content: center;
+place-content: left;
 font-family: system-ui;
 font-size: min(200%, 5vmin);
 }
@@ -52,3 +52,15 @@ inline-size: 100%;
 text-align: center;
 }
 
+div {
+  background: radial-gradient(hsl(100, 100%, 60%), hsl(200, 100%, 60%)) fixed;
+  background: conic-gradient(
+      hsl(100 100% 60%),
+      hsl(200 100% 60%),
+      hsl(100 100% 60%)
+    )
+    fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
